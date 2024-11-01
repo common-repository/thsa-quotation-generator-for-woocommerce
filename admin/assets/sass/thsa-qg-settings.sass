@@ -1,0 +1,44 @@
+@import common.sass
+
+.thsa_qg_settings_wrapper
+    margin-right: 20px
+    .thsa_qg_inner
+        .thsa_qg_settings_tab
+            margin: 0
+            padding: 0
+            li
+                display: inline-block
+                padding: 10px 15px
+                cursor: pointer
+                border: 1px solid $tab_grey
+                margin-right: 3px
+                margin-bottom: 0
+                margin-bottom: -1px
+
+                &.active
+                    background: $tab_active
+                    border-bottom: 1px solid $tab_active
+
+        .thsa_settings_content
+            border: 1px solid $tab_grey
+            background: $tab_active
+
+        .thsa_qg_email_settings
+            padding: 20px
+            h2
+                margin-top: 0
+
+        .thsa_qg_tab_content
+            display: none
+            padding: 10px 20px
+            &.active
+                display: block
+
+            input.thsa_email_set_field,
+            input.thsa_qg_set_field,
+            select.thsa_qg_set_field
+                width: 500px
+                display: block
+
+.thsa_qg_response
+    display: none

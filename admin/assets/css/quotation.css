@@ -1,0 +1,161 @@
+.thsa_qg_color_plates {
+  padding: 30px;
+  padding-right: 0; }
+  .thsa_qg_color_plates span.title {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px; }
+  .thsa_qg_color_plates .thsa_qg_plates_el {
+    cursor: pointer;
+    padding: 20px;
+    border: 5px solid #f2f2f2;
+    border-radius: 10px; }
+    .thsa_qg_color_plates .thsa_qg_plates_el:hover {
+      border-color: #fc0303; }
+  .thsa_qg_color_plates .thsa_qg_plates_el.active {
+    border-color: #fc0303; }
+
+.thsa_qg_plate {
+  border: 1px solid #CCC; }
+  .thsa_qg_plate tr td, .thsa_qg_plate tr th {
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    padding: 5px; }
+    .thsa_qg_plate tr td:last-child, .thsa_qg_plate tr th:last-child {
+      border-right: 0; }
+  .thsa_qg_plate tr th {
+    text-align: left; }
+  .thsa_qg_plate tr td {
+    font-size: 12px; }
+  .thsa_qg_plate tfoot tr:last-child td {
+    border-bottom: 0; }
+
+.thsa_qg_plate_blackcurrant {
+  border: 1px solid #000;
+  background: #f2f2f2; }
+  .thsa_qg_plate_blackcurrant tr td, .thsa_qg_plate_blackcurrant tr th {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000; }
+  .thsa_qg_plate_blackcurrant tr th {
+    background-color: #000;
+    color: white; }
+  .thsa_qg_plate_blackcurrant tfoot tr:last-child td {
+    border-right: 0;
+    font-weight: bold; }
+
+.thsa_qg_plate_honeydew {
+  border: 1px solid #cfc87a;
+  background: #fdf8e2; }
+  .thsa_qg_plate_honeydew tr td, .thsa_qg_plate_honeydew tr th {
+    border-bottom: 1px solid #cfc87a;
+    border-right: 1px solid #cfc87a; }
+  .thsa_qg_plate_honeydew tr th {
+    background-color: #e9e5b6;
+    color: #000; }
+  .thsa_qg_plate_honeydew tfoot tr:last-child td {
+    border-right: 0;
+    font-weight: bold; }
+
+.thsa_qg_plate_pear {
+  border: 1px solid #899100;
+  background: #f8fadb; }
+  .thsa_qg_plate_pear tr td, .thsa_qg_plate_pear tr th {
+    border-bottom: 1px solid #899100;
+    border-right: 1px solid #899100; }
+  .thsa_qg_plate_pear tr th {
+    background-color: #d3d951;
+    color: #000; }
+  .thsa_qg_plate_pear tfoot tr:last-child td {
+    border-right: 0;
+    font-weight: bold; }
+
+.thsa_qg_plate_banana {
+  border: 1px solid #c79e05;
+  background: #f9e7a9; }
+  .thsa_qg_plate_banana tr td, .thsa_qg_plate_banana tr th {
+    border-bottom: 1px solid #c79e05;
+    border-right: 1px solid #c79e05; }
+  .thsa_qg_plate_banana tr th {
+    background-color: #edc230;
+    color: #000; }
+  .thsa_qg_plate_banana tfoot tr:last-child td {
+    border-right: 0;
+    font-weight: bold; }
+
+.thsa_qg_plate_strawberry {
+  border: 1px solid #b50002;
+  background: #ff5c68; }
+  .thsa_qg_plate_strawberry tr td, .thsa_qg_plate_strawberry tr th {
+    border-bottom: 1px solid #b50002;
+    border-right: 1px solid #b50002;
+    color: white; }
+  .thsa_qg_plate_strawberry tr th {
+    background-color: #ee1d2b;
+    color: white; }
+  .thsa_qg_plate_strawberry tfoot tr:last-child td {
+    border-right: 0;
+    font-weight: bold;
+    color: white; }
+
+.thsa_qg_plate_blueberry {
+  border: 1px solid #084391;
+  background: #68caf9; }
+  .thsa_qg_plate_blueberry tr td, .thsa_qg_plate_blueberry tr th {
+    border-bottom: 1px solid #084391;
+    border-right: 1px solid #084391;
+    color: #000; }
+  .thsa_qg_plate_blueberry tr th {
+    background-color: #2786e2;
+    color: #000; }
+  .thsa_qg_plate_blueberry tfoot tr:last-child td {
+    border-right: 0;
+    font-weight: bold;
+    color: #000; }
+
+.thsa_qg_plate_poncan {
+  border: 1px solid #ff6700;
+  background: #ffd7b5; }
+  .thsa_qg_plate_poncan tr td, .thsa_qg_plate_poncan tr th {
+    border-bottom: 1px solid #ff6700;
+    border-right: 1px solid #ff6700;
+    color: #000; }
+  .thsa_qg_plate_poncan tr th {
+    background-color: #ff9248;
+    color: #000; }
+  .thsa_qg_plate_poncan tfoot tr:last-child td {
+    border-right: 0;
+    font-weight: bold;
+    color: #000; }
+
+.thsa_qg_plate_lychees {
+  border: 1px solid #aa0a1e;
+  background: #d06776; }
+  .thsa_qg_plate_lychees tr td, .thsa_qg_plate_lychees tr th {
+    border-bottom: 1px solid #aa0a1e;
+    border-right: 1px solid #aa0a1e;
+    color: white; }
+  .thsa_qg_plate_lychees tr th {
+    background-color: #c83a54;
+    color: white; }
+  .thsa_qg_plate_lychees tfoot tr:last-child td {
+    border-right: 0;
+    font-weight: bold;
+    color: white; }
+
+.thsa_qg_plate_grapes {
+  border: 1px solid #810066;
+  background: #c877ba; }
+  .thsa_qg_plate_grapes tr td, .thsa_qg_plate_grapes tr th {
+    border-bottom: 1px solid #810066;
+    border-right: 1px solid #810066;
+    color: white; }
+  .thsa_qg_plate_grapes tr th {
+    background-color: #ad027e;
+    color: white; }
+  .thsa_qg_plate_grapes tfoot tr:last-child td {
+    border-right: 0;
+    font-weight: bold;
+    color: white; }
+
+/*# sourceMappingURL=quotation.css.map */

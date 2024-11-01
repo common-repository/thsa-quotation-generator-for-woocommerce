@@ -1,0 +1,336 @@
+@import common.sass
+
+.thsa_qg_wrapper
+    padding: 10px
+    position: relative
+
+    .thsa_qg_inner
+        position: relative
+
+        &:after
+            content: " "
+            display: block
+            clear: both
+
+        h3
+            margin: 10px 0
+
+        .thsa_qg_table_con
+            padding: 5px 0
+
+            .main_label
+                margin-left: 3px
+
+            .thsa_qg_discount_table1
+
+                tr
+                    td
+                        padding: 0 10px
+
+                        &:first-child
+                            padding-left: 0
+
+            .thsa_qg_tail_text
+                position: inline-block
+                margin-left: 5px
+
+            .thsa_qg_wide,
+            .thsa_qg_wide tbody,
+            .thsa_qg_wide tbody tr
+                width: 100%
+                display: block
+                
+                td
+                    vertical-align: middle
+
+            .thsa_qg_plan_fields
+                display: none
+
+
+        .thsa_qg_product_table,
+        .thsa_qg_fees_list
+            margin-bottom: 10px
+
+
+        .thsa_qg_summary_box
+            width: 400px
+            float: right
+            border: 1px solid $tab_grey
+
+            h3
+                margin: 0
+                padding: 15px 20px
+                background-color: $title_grey
+
+            .thsa_qg_summary_box_numbers
+                padding: 20px
+
+            .thsa_qg_summary_box_numbers p:first-child
+                margin-top: 0
+            
+            .thsa_qg_summary_box_numbers p:last-child
+                margin-bottom: 0
+
+            .thsa_qg_total_field_wrap
+                background-color: $title_grey
+                padding: 20px
+
+                .thsa_qg_total_field
+                    font-size: 25px
+                    padding: 5px 10px
+
+        .thsa_qg_plan_summary
+            border-top: 1px solid #CCC
+            display: none
+
+            &.active
+                display: block
+
+    .thsa_qg_action p
+        text-align: center
+
+    .thsa_qg_shortcodes_ p
+        text-align: left
+
+    .thsa_qg_action p:first-child
+        margin-top: 0
+
+    .thsa_qg_action p:last-child
+        margin-bottom: 0
+
+    .thsa_qg_plan_manage_button
+        display: none
+
+    .thsa_qg_plan_manage_button.active
+        display: block
+
+    .thsa_qg_plan_settings
+        border: 1px solid #CCC
+        background: #F2F2F2
+        padding: 20px
+
+    .thsa_qg_plan_settings p:first-child
+        margin-top: 0
+    .thsa_qg_plan_settings p:last-child
+        margin-bottom: 0
+
+
+    .thsa_remove_file_download
+        cursor: pointer
+
+    .thsa_qg_event_action
+        display: none
+
+    .thsa_qg_event_action.active
+        display: block
+
+    .thsa_qg_plan_settings
+        display: none
+        margin-bottom: 20px
+
+    .thsa_qg_plan_settings.active
+        display: block
+
+    .thsa_qg_message
+        padding: 10px
+        border: 1px solid $tab_grey
+        border-left: 5px solid $warning
+        margin-bottom: 10px
+
+    .right_text
+        text-align: right
+
+    .thsa_qg_notices
+        display: inline-block
+        padding: 10px
+        background-color: $yellow
+        border-radius: 5px
+        padding-right: 12px
+        vertical-align: bottom
+        margin-bottom: 10px
+        display: none
+
+    .thsa_qg_select_products_loader
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: rgba(255, 255, 255, 0.7)
+        z-index: 999
+
+        span
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+
+            
+
+    
+.thsa_admin_qg_tab
+    margin: 0
+    padding: 0
+
+    li
+        display: inline-block
+        padding: 10px
+        background-color: $tab_grey
+        cursor: pointer
+        border: 1px solid $tab_grey
+        margin: 0
+        border-bottom: 0
+
+        &.active
+            background-color: $tab_active
+
+.thsa_tab_content
+    padding: 20px
+    border: 1px solid $tab_grey
+    margin-top: -1px
+
+    .thsa_tab_child
+        display: none
+
+        &.active
+            display: block
+
+    .thsa_qg_user_details
+        margin-top: 20px
+
+        label
+            color: $label_color
+        
+        span
+            display: block
+
+
+.thsa_product_options
+    .widefat.no-border
+        border: 0
+        td
+            padding: 10px
+            padding-bottom: 20px
+            padding-top: 0px
+            vertical-align: bottom
+
+            &:first-child
+                padding-left: 0
+            &:last-child
+                padding-right: 0
+
+            .select2-container .select2-selection--single
+                margin-bottom: 0 !important
+
+    .thsa_qg_added_product_qty
+        width: 60px !important
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+    -webkit-appearance: none
+    margin: 0
+
+
+input[type=number]
+    -moz-appearance: textfield
+    text-align: right
+
+input.thsa_qg_set_field,
+select.thsa_qg_set_field
+    width: 300px
+    display: block
+
+
+.thsa_qg_preview_email,
+.thsa_qg_manage_content
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    z-index: 999
+    display: none
+
+    .thsa_qg_preview_email_content,
+    .thsa_qg_manage_content_content
+        position: relative
+        max-width: 900px
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        background: white
+        -webkit-box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.75)
+        -moz-box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.75)
+        box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.75)
+        padding: 20px
+        height: 80%
+
+    .thsa_qg_preview_email_content_get,
+    .thsa_qg_manage_content_content_get
+        display: block
+        position: relative
+        height: calc(100% - 50px)
+        overflow-y: auto
+        margin-bottom: 20px
+
+    .thsa_qg_preview_email_content_footer,
+    .thsa_qg_manage_content_content_footer
+        height: 100px
+
+    .thsa_qg_loader,
+    .thsa_qg_content_loader
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+
+    .thsa_qg_content_loader
+        z-index: 999
+
+.thsa_qg_pro_version
+    padding: 20px
+
+    table
+        width: 100%
+
+        tr
+            td:first-child
+                height: 400px
+                background: url( https://thsaapps.com/wp-content/uploads/2023/01/thsa-hero1.png ) right center no-repeat
+                background-size: contain
+                width: 80%
+                background-color: #1E7B72
+
+                .thsa_head_pro_text
+                    padding-left: 60px
+                    h2
+                        color: white
+                        font-size: 50px
+                        margin: 35px 0
+
+                    h3
+                        color: #f2f2f2
+                        font-size: 30px
+                        margin: 35px 0
+
+            td:last-child
+                background-color: #EAEAEA
+
+
+    .thsa_qg_other_information
+        margin: 40px 0
+
+        h2
+            font-size: 26px
+
+        ul
+            margin: 30px 0
+
+            li
+                font-size: 15px
+                margin: 15px 0
+
+
+

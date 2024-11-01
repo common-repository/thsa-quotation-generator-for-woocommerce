@@ -1,0 +1,38 @@
+.thsa_qg_settings_wrapper {
+  margin-right: 20px; }
+  .thsa_qg_settings_wrapper .thsa_qg_inner .thsa_qg_settings_tab {
+    margin: 0;
+    padding: 0; }
+    .thsa_qg_settings_wrapper .thsa_qg_inner .thsa_qg_settings_tab li {
+      display: inline-block;
+      padding: 10px 15px;
+      cursor: pointer;
+      border: 1px solid #dedede;
+      margin-right: 3px;
+      margin-bottom: 0;
+      margin-bottom: -1px; }
+      .thsa_qg_settings_wrapper .thsa_qg_inner .thsa_qg_settings_tab li.active {
+        background: white;
+        border-bottom: 1px solid white; }
+  .thsa_qg_settings_wrapper .thsa_qg_inner .thsa_settings_content {
+    border: 1px solid #dedede;
+    background: white; }
+  .thsa_qg_settings_wrapper .thsa_qg_inner .thsa_qg_email_settings {
+    padding: 20px; }
+    .thsa_qg_settings_wrapper .thsa_qg_inner .thsa_qg_email_settings h2 {
+      margin-top: 0; }
+  .thsa_qg_settings_wrapper .thsa_qg_inner .thsa_qg_tab_content {
+    display: none;
+    padding: 10px 20px; }
+    .thsa_qg_settings_wrapper .thsa_qg_inner .thsa_qg_tab_content.active {
+      display: block; }
+    .thsa_qg_settings_wrapper .thsa_qg_inner .thsa_qg_tab_content input.thsa_email_set_field,
+    .thsa_qg_settings_wrapper .thsa_qg_inner .thsa_qg_tab_content input.thsa_qg_set_field,
+    .thsa_qg_settings_wrapper .thsa_qg_inner .thsa_qg_tab_content select.thsa_qg_set_field {
+      width: 500px;
+      display: block; }
+
+.thsa_qg_response {
+  display: none; }
+
+/*# sourceMappingURL=thsa-qg-settings.css.map */
